@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: general keymaps override
+# key: :ko
+# --
+:keymaps 'override

@@ -1,0 +1,6 @@
+# name: my-main
+# key: psvm
+# --
+public static void main(String[] args) {
+    $0
+}

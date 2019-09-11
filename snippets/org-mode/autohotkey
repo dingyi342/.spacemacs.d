@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ahk
+# key: ahk_
+# --
+#+BEGIN_SRC autohotkey
+  $0
+#+END_SRC

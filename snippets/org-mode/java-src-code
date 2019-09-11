@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: java-src-code
+# key: ja_
+# --
+#+BEGIN_SRC java
+  $0
+#+END_SRC

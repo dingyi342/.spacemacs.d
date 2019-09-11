@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: find-file
+# key: ff
+# --
+#+BEGIN_SRC emacs-lisp :results silent
+(find-file-other-window "$0")
+#+END_SRC

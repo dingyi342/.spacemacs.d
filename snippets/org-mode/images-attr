@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: images_attr
+# key: im
+# --
+#+CAPTION: ${1:caption of the image}
+#+ATTR_ORG: :width ${2:300}
+[[file:${3:image_path}]]$0
+

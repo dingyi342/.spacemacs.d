@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: plantuml
+# key: pu
+# --
+#+BEGIN_SRC plantuml :file ${1:$$(concat (make-temp-name "./plantuml-") ".png")} :cache yes
+  $0
+#+END_SRC

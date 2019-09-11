@@ -1,0 +1,28 @@
+#+TITLE: quickrun layer
+
+* Table of Contents :TOC_4_gh:noexport:
+- [[#description][Description]]
+  - [[#features][Features:]]
+- [[#install][Install]]
+- [[#key-bindings][Key Bindings]]
+- [[#special-thanks][Special Thanks]]
+
+* Description
+  This layer brings single file execution for Spacemacs.
+** Features:
+   - Single file execution using [[https://github.com/syohex/emacs-quickrun][emacs-quickrun]]
+
+* Install
+  To use this configuration layer, first, clone this repository to =~/.emacs.d/private/layers/quickrun=,
+  and add =quickrun= to the existing =dotspacemacs-configuration-layers= list in this file.
+
+* Key Bindings
+  | Key Binding | Description                                 |
+  |-------------+---------------------------------------------|
+  | ~SPC c q a~ | run current buffer with arguments           |
+  | ~SPC c q h~ | select configuration and run current buffer |
+  | ~SPC c q q~ | run current buffer or visual region         |
+  | ~SPC c q s~ | create a .qrinput file of current buffer    |
+
+* Special Thanks
+  - [[http://emacs.rubikitch.com/my-quickrun][quickrun を魔改造して開発中のプログラムの実行をチョーチョー簡単にする！]]

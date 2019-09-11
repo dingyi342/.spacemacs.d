@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: shell-tangle
+# key: sht
+# --
+#+BEGIN_SRC shell :tangle ${1:/path/to/file}
+$0
+#+END_SRC

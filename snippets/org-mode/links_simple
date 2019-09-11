@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: links_simple
+# key: li
+# --
+[[${1: }][${2: }]bs_${0:}

@@ -1,0 +1,9 @@
+# -*- mode: org -*-
+# name: org-babel-properties
+# key: :p
+# --
+:PROPERTIES:
+:header-args: :noweb-ref ${1:session01}
+:END:
+$0
+ 

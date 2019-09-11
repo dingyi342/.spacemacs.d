@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: elisp with noweb-ref
+# key: eln
+# --
+#+BEGIN_SRC emacs-lisp :noweb-ref ${1:session1}
+  $0
+#+END_SRC

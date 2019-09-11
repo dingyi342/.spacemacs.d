@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: cxy
+# key: cxy
+# --
+#+BEGIN_SRC cxy
+  $0
+#+END_SRC
+
+      

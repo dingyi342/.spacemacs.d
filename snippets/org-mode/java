@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: java
+# key: ja
+# --
+#+BEGIN_SRC java :classname ${1:myMainClass} :exports both :results output
+public class $1 {
+  public static void main(String[] args) {
+    $0
+  }
+}
+#+END_SRC

@@ -1,0 +1,40 @@
+#+TITLE: backup layer
+
+# The maximum height of the logo should be 200 pixels.
+[[img/backup.png]]
+
+# TOC links should be GitHub style anchors.
+* Table of Contents                                        :TOC_4_gh:noexport:
+- [[#description][Description]]
+  - [[#features][Features:]]
+- [[#install][Install]]
+- [[#key-bindings][Key bindings]]
+
+* Description
+This layer adds support for 备份。
+在spacemacs里已经设置过了，但是自己想增加，在源文件里直接修改不好，所以添加了一个层，在原配置后加载就会覆盖了。
+原设置不使用备份，现用back-walker.
+原设置的自动保存功能，用我从网上找的配置覆盖，其实差不多的。
+
+** Features:
+  - Autocomplete
+  - Lint
+  - Refactor
+  - ...
+
+* Install
+To use this configuration layer, add it to your =~/.spacemacs=. You will need to
+add =backup= to the existing =dotspacemacs-configuration-layers= list in this
+file.
+
+* Key bindings
+
+| Key Binding | Description    |
+|-------------+----------------|
+| ~SPC x x x~ | Does thing01   |
+
+# Use GitHub URLs if you wish to link a Spacemacs documentation file or its heading.
+# Examples:
+# [[https://github.com/syl20bnr/spacemacs/blob/master/doc/VIMUSERS.org#sessions]]
+# [[https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bfun/emoji/README.org][Link to Emoji layer README.org]]
+# If space-doc-mode is enabled, Spacemacs will open a local copy of the linked file.

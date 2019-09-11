@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: test
+# key: tt
+# --
+# --
+#+HEADERS: :classname ${1:myMainClass} 
+#+BEGIN_SRC java 
+public class $1 {
+public static void main(String[] args) {
+$0
+}
+}
+#+END_SRC
