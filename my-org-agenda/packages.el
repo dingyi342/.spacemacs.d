@@ -36,7 +36,7 @@
 
 ;;; org-todo-keywords
     ;; (load-file (expand-file-name "./local/org-agenda-custom.el" (file-name-directory load-file-name)))
-    (load-file "/home/dingyi/.txnix/spacemacs/.spacemacs.d/my-org-agenda/local/org-todo-states.el")
+    (load-file "~/.spacemacs.d/my-org-agenda/local/org-todo-states.el")
 
     ;; (setq org-todo-keywords
     ;;       '((sequence "TODO(t!)" "NEXT(n)" "WAITTING(w)" "SOMEDAY(s)" "|" "DONE(d@/!)" "ABORT(a@/!)")
@@ -58,7 +58,7 @@
 
 ;;; org-capture-templates
 
-    (load-file "/home/dingyi/.txnix/spacemacs/.spacemacs.d/my-org-agenda/local/org-catpture-templates.el")
+    (load-file "~/.spacemacs.d/my-org-agenda/local/org-catpture-templates.el")
     ;; (setq org-capture-templates
     ;;       '(
     ;;         ("t" "Todo [inbox]" entry
@@ -99,7 +99,7 @@
     (setq org-outline-path-complete-in-steps nil)         ; Refile in a single go
     (setq org-refile-use-outline-path t)                  ; Show full paths for refiling
 ;;; org-agenda-custom-commands
-    (load-file "/home/dingyi/.txnix/spacemacs/.spacemacs.d/my-org-agenda/local/org-agenda-custom-commands.el")
+    (load-file "~/.spacemacs.d/my-org-agenda/local/org-agenda-custom-commands.el")
     ;; (setq org-agenda-custom-commands
     ;;       '(("o" "At the office" tags-todo "@office"
     ;;          ((org-agenda-overriding-header "Office")
@@ -132,7 +132,7 @@
     ;; (add-to-list 'org-agenda-custom-commands `,my/org-agenda-someday-view)
 
 ;;; org-agenda-style
-    (load-file "/home/dingyi/.txnix/spacemacs/.spacemacs.d/my-org-agenda/local/org-agenda-project.el")
+    (load-file "~/.spacemacs.d/my-org-agenda/local/org-agenda-project.el")
 ;;; keybindings
     (comma-def "a" 'org-agenda)
     (general-def
@@ -165,7 +165,7 @@
     :config
     (org-super-agenda-mode)
     (require 'org-habit)
-    (load-file "/home/dingyi/.txnix/spacemacs/.spacemacs.d/my-org-agenda/local/org-super-agenda.el" )
+    (load-file "~/.spacemacs.d/my-org-agenda/local/org-super-agenda.el" )
     ))
 
 ;;; packages.el ends here

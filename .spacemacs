@@ -335,6 +335,16 @@ This function should only modify configuration layer settings."
      vimscript
      latex
 
+;;;; 前端 Web
+     web-beautify
+     (html :variables
+           web-fmt-tool 'web-beautify
+           css-enable-lsp t
+           less-enable-lsp t
+           scss-enable-lsp t)
+     json
+     javascript
+
 ;;; my layer configuration
 ;;;; my-core-layer
      my-fonts
